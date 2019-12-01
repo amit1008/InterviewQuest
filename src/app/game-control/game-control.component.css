@@ -1,0 +1,19 @@
+.btn{
+    margin: 0% 0% 0% 50%;
+    font-size: 35px;
+    border: 1px solid grey;
+    color:white;
+    cursor: pointer;
+    padding: 2px 2px;
+    vertical-align: middle;
+    line-height: 1.1;
+    
+    border-radius:5px;
+}
+.btn-primary{
+    background-color:rgb(37, 37, 173);
+}
+
+.btn-danger{
+    background-color:red;
+}

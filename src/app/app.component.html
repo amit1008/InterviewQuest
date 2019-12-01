@@ -1,0 +1,13 @@
+<app-game-control (countRep)="countPrint($event)"></app-game-control>
+
+    <div class="Even" *ngIf="evenCount%2 === 0">
+        <app-even></app-even>
+    </div>
+
+
+
+    <div class="Odd" *ngIf="evenCount%2 != 0">
+        <app-odd></app-odd>
+    </div>
+
+
